@@ -1,8 +1,8 @@
 import { getKanpai, getFirstMatch, LETTERBOXD_ORIGIN, LETTERBOXD_NEXT_PAGE_REGEX } from './util';
 import * as cache from '../cache/index';
 
-// Cache Lists for 30min
-const LIST_CACHE_TIMEOUT = 30 * 60;
+// Cache Lists for 5sec
+const LIST_CACHE_TIMEOUT = 5;
 
 export interface LetterboxdPoster {
     slug: string;
